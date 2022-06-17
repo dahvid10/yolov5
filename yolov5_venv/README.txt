@@ -13,4 +13,4 @@ COMMANDS
 ## save cropped images of detected classes
 
 >python detectv3.py --source 0 --weights yolov5n.pt --save-crop
->python detectv4.py --source 0 --weights yolov5n.pt --connection_string "" --upload_img
+>python detectv4.py --source 0 --weights yolov5n.pt --connection_string "<connection string>" --upload_images
